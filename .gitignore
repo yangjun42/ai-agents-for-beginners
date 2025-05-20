@@ -17,6 +17,9 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 .coop/
+env/
+autogen/
+chroma_db/
 
 # Mono auto generated files
 mono_crash.*

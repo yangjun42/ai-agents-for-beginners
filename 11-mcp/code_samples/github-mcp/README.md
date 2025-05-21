@@ -12,7 +12,19 @@ This is done by:
 3. **Events Agent** - Based on the hackathon agents suggestion, the events agent will recommend relevant events from the AI Agent Hackathon series.
 ## Running the code 
 
-### Environment Variables
+### Prerequisites
+- Node.js installed (version 14 or higher)
+- npm package manager
+- Python environment with required dependencies
+
+### Setup Steps
+
+**Install MCP Server Package**
+   ```bash
+   npm install -g @modelcontextprotocol/server-github
+   ```
+
+**Environment Variables**
 
 This demo uses Azure Open AI Service, Semantic Kernel, the Github MCP Server and Azure AI Search.
 
